@@ -4354,3 +4354,204 @@ Did you mean?  committed!):
     6: <%= link_to "<< Back to Article List", articles_path %>
   
 app/views/articles/show.html.erb:3
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/articles/new" for 127.0.0.1 at 2020-04-24 19:41:51 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 17.4ms | Allocations: 7666)
+  Rendered articles/new.html.erb within layouts/application (Duration: 18.4ms | Allocations: 8071)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 54ms (Views: 41.3ms | ActiveRecord: 0.6ms | Allocations: 20564)
+
+
+Started POST "/articles" for 127.0.0.1 at 2020-04-24 19:41:57 -0300
+Processing by ArticlesController#create as HTML
+  Parameters: {"authenticity_token"=>"AllfA0qcQFwQO0XJKixX7SWw2LnNomkTlpHA6jwaeDBQArJifuTXVBxt5DGXjrJTto3uDwrjkacR5sAjtNBvLA==", "article"=>{"title"=>"ok", "body"=>"ka", "tag_list"=>"ka"}, "commit"=>"Create Article"}
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" WHERE "tags"."name" = ? LIMIT ?[0m  [["name", "ka"], ["LIMIT", 1]]
+  ↳ app/models/article.rb:6:in `block in tag_list='
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/article.rb:6:in `block in tag_list='
+  [1m[36mTag Create (0.2ms)[0m  [1m[32mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "ka"], ["created_at", "2020-04-24 22:41:57.043031"], ["updated_at", "2020-04-24 22:41:57.043031"]]
+  ↳ app/models/article.rb:6:in `block in tag_list='
+  [1m[35m (5.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/article.rb:6:in `block in tag_list='
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:30:in `create'
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "ok"], ["body", "ka"], ["created_at", "2020-04-24 22:41:57.089408"], ["updated_at", "2020-04-24 22:41:57.089408"]]
+  ↳ app/controllers/articles_controller.rb:30:in `create'
+  [1m[36mTagging Create (0.2ms)[0m  [1m[32mINSERT INTO "taggings" ("tag_id", "article_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["tag_id", 7], ["article_id", 25], ["created_at", "2020-04-24 22:41:57.092600"], ["updated_at", "2020-04-24 22:41:57.092600"]]
+  ↳ app/controllers/articles_controller.rb:30:in `create'
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:30:in `create'
+Redirected to http://localhost:3000/articles/25
+Completed 302 Found in 65ms (ActiveRecord: 12.9ms | Allocations: 16945)
+
+
+Started GET "/articles/25" for 127.0.0.1 at 2020-04-24 19:41:57 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:11:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 8.5ms | Allocations: 3399)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.9ms | Allocations: 7918)
+
+
+  
+ActionView::Template::Error (undefined method `comments' for #<Article:0x00007f7f08cbbc70>
+Did you mean?  committed!):
+    1: <h1><%= @article.title %></h1>
+    2: <p><%= @article.body %></p>
+    3: <h3>Comments (<%= @article.comments.size %>)</h3>
+    4: <%= render partial: 'articles/comment', collection: @article.comments %>
+    5: <%= render partial: 'comments/form' %>
+    6: <%= link_to "<< Back to Article List", articles_path %>
+  
+app/views/articles/show.html.erb:3
+Started GET "/articles/25" for 127.0.0.1 at 2020-04-24 19:43:21 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:11:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 12.8ms | Allocations: 2857)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.3ms | Allocations: 3888)
+
+
+  
+ActionView::Template::Error (undefined method `comments' for #<Article:0x00007f7f085fb408>
+Did you mean?  committed!):
+    1: <h1><%= @article.title %></h1>
+    2: <p><%= @article.body %></p>
+    3: <h3>Comments (<%= @article.comments.size %>)</h3>
+    4: <%= render partial: 'articles/comment', collection: @article.comments %>
+    5: <%= render partial: 'comments/form' %>
+    6: <%= link_to "<< Back to Article List", articles_path %>
+  
+app/views/articles/show.html.erb:3
+Started POST "/articles" for 127.0.0.1 at 2020-04-24 19:44:52 -0300
+Processing by ArticlesController#create as HTML
+  Parameters: {"authenticity_token"=>"AllfA0qcQFwQO0XJKixX7SWw2LnNomkTlpHA6jwaeDBQArJifuTXVBxt5DGXjrJTto3uDwrjkacR5sAjtNBvLA==", "article"=>{"title"=>"ok", "body"=>"ka", "tag_list"=>"kaz"}, "commit"=>"Create Article"}
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" WHERE "tags"."name" = ? LIMIT ?[0m  [["name", "kaz"], ["LIMIT", 1]]
+  ↳ app/models/article.rb:6:in `block in tag_list='
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/article.rb:6:in `block in tag_list='
+  [1m[36mTag Create (0.5ms)[0m  [1m[32mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "kaz"], ["created_at", "2020-04-24 22:44:52.422923"], ["updated_at", "2020-04-24 22:44:52.422923"]]
+  ↳ app/models/article.rb:6:in `block in tag_list='
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/article.rb:6:in `block in tag_list='
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:30:in `create'
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "ok"], ["body", "ka"], ["created_at", "2020-04-24 22:44:52.436455"], ["updated_at", "2020-04-24 22:44:52.436455"]]
+  ↳ app/controllers/articles_controller.rb:30:in `create'
+  [1m[36mTagging Create (0.4ms)[0m  [1m[32mINSERT INTO "taggings" ("tag_id", "article_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["tag_id", 8], ["article_id", 26], ["created_at", "2020-04-24 22:44:52.440934"], ["updated_at", "2020-04-24 22:44:52.440934"]]
+  ↳ app/controllers/articles_controller.rb:30:in `create'
+  [1m[35m (4.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:30:in `create'
+Redirected to http://localhost:3000/articles/26
+Completed 302 Found in 31ms (ActiveRecord: 10.9ms | Allocations: 9521)
+
+
+Started GET "/articles/26" for 127.0.0.1 at 2020-04-24 19:44:52 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"26"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:11:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 5.9ms | Allocations: 2851)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.2ms | Allocations: 3818)
+
+
+  
+ActionView::Template::Error (undefined method `comments' for #<Article:0x00007f7efc0b2868>
+Did you mean?  committed!):
+    1: <h1><%= @article.title %></h1>
+    2: <p><%= @article.body %></p>
+    3: <h3>Comments (<%= @article.comments.size %>)</h3>
+    4: <%= render partial: 'articles/comment', collection: @article.comments %>
+    5: <%= render partial: 'comments/form' %>
+    6: <%= link_to "<< Back to Article List", articles_path %>
+  
+app/views/articles/show.html.erb:3
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/articles/new" for 127.0.0.1 at 2020-04-24 19:46:29 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 9.9ms | Allocations: 7666)
+  Rendered articles/new.html.erb within layouts/application (Duration: 10.8ms | Allocations: 8071)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 25.0ms | ActiveRecord: 0.5ms | Allocations: 21316)
+
+
+Started POST "/articles" for 127.0.0.1 at 2020-04-24 19:46:31 -0300
+Processing by ArticlesController#create as HTML
+  Parameters: {"authenticity_token"=>"6qoo68UvdvYvjvDwWDWytDIAPdpITUnerjURNqW+kTC87G88gPXxGSkuchcpl0U6oYRiS9FmLPPA4pg+GyYoSA==", "article"=>{"title"=>"", "body"=>"", "tag_list"=>""}, "commit"=>"Create Article"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:30:in `create'
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", ""], ["body", ""], ["created_at", "2020-04-24 22:46:31.004039"], ["updated_at", "2020-04-24 22:46:31.004039"]]
+  ↳ app/controllers/articles_controller.rb:30:in `create'
+  [1m[35m (5.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:30:in `create'
+Redirected to http://localhost:3000/articles/27
+Completed 302 Found in 33ms (ActiveRecord: 6.5ms | Allocations: 4065)
+
+
+Started GET "/articles/27" for 127.0.0.1 at 2020-04-24 19:46:31 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:11:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 27]]
+  ↳ app/views/articles/show.html.erb:3
+  Rendered collection of articles/_comment.html.erb [0 times] (Duration: 0.0ms | Allocations: 3)
+  Rendered comments/_form.html.erb (Duration: 8.6ms | Allocations: 794)
+  Rendered articles/show.html.erb within layouts/application (Duration: 14.2ms | Allocations: 3256)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 20.1ms | ActiveRecord: 1.4ms | Allocations: 11501)
+
+
+Started POST "/articles/27/comments" for 127.0.0.1 at 2020-04-24 19:46:37 -0300
+Processing by CommentsController#create as HTML
+  Parameters: {"authenticity_token"=>"HjbvmYb2bg7jIYJqgVsju3ZeHqqz1hVkJI/j7GJimzBIcKhOwyzp4eWBAI3w+dQ15dpBOyr9cElKWGrk3PoiSA==", "comment"=>{"author_name"=>"fda", "body"=>"das"}, "commit"=>"Submit", "article_id"=>"27"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/comments_controller.rb:8:in `create'
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/controllers/comments_controller.rb:8:in `create'
+  [1m[36mComment Create (0.5ms)[0m  [1m[32mINSERT INTO "comments" ("author_name", "body", "article_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["author_name", "fda"], ["body", "das"], ["article_id", 27], ["created_at", "2020-04-24 22:46:37.249806"], ["updated_at", "2020-04-24 22:46:37.249806"]]
+  ↳ app/controllers/comments_controller.rb:8:in `create'
+  [1m[35m (4.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/comments_controller.rb:8:in `create'
+Redirected to http://localhost:3000/articles/27
+Completed 302 Found in 20ms (ActiveRecord: 5.7ms | Allocations: 5646)
+
+
+Started GET "/articles/27" for 127.0.0.1 at 2020-04-24 19:46:37 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:11:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 27]]
+  ↳ app/views/articles/show.html.erb:3
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 27]]
+  ↳ app/views/articles/show.html.erb:4
+  Rendered collection of articles/_comment.html.erb [1 times] (Duration: 1.3ms | Allocations: 232)
+  Rendered comments/_form.html.erb (Duration: 0.8ms | Allocations: 374)
+  Rendered articles/show.html.erb within layouts/application (Duration: 5.0ms | Allocations: 2433)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.3ms | Allocations: 6882)
+
+
