@@ -7,6 +7,10 @@ class Article < ApplicationRecord
     self.tags = new_or_found_tags
   end
 
+  def tag_list
+    tags.collect(&:name).join(', ')
+  end
+
   has_many :taggings
   has_many :tags, through: :taggings
 end

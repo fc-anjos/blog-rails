@@ -4132,3 +4132,225 @@ Processing by ArticlesController#index as HTML
 Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.3ms | Allocations: 5382)
 
 
+Started GET "/articles/new" for 127.0.0.1 at 2020-04-24 19:34:39 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 9.2ms | Allocations: 3691)
+  Rendered articles/new.html.erb within layouts/application (Duration: 9.7ms | Allocations: 3753)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 4214)
+
+
+  
+ActionView::Template::Error (undefined method `tag_list' for #<Article:0x00007f2575047e90>
+Did you mean?  tag_list=):
+    16: 
+    17:   <p>
+    18:   <%= f.label :tag_list %><br />
+    19:   <%= f.text_field :tag_list%>
+    20:   </p>
+    21: 
+    22:   <p>
+  
+app/views/articles/_form.html.erb:19
+app/views/articles/_form.html.erb:1
+app/views/articles/new.html.erb:3
+Started GET "/articles/new" for 127.0.0.1 at 2020-04-24 19:35:06 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 6.3ms | Allocations: 3691)
+  Rendered articles/new.html.erb within layouts/application (Duration: 6.6ms | Allocations: 3753)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 4214)
+
+
+  
+ActionView::Template::Error (undefined method `tag_list' for #<Article:0x00007f2575473320>
+Did you mean?  tag_list=):
+    16: 
+    17:   <p>
+    18:   <%= f.label :tag_list %><br />
+    19:   <%= f.text_field :tag_list%>
+    20:   </p>
+    21: 
+    22:   <p>
+  
+app/views/articles/_form.html.erb:19
+app/views/articles/_form.html.erb:1
+app/views/articles/new.html.erb:3
+Started GET "/articles/new" for 127.0.0.1 at 2020-04-24 19:35:51 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 7.7ms | Allocations: 3819)
+  Rendered articles/new.html.erb within layouts/application (Duration: 8.2ms | Allocations: 3881)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 1.3ms | Allocations: 8390)
+
+
+  
+ActionView::Template::Error (undefined method `tag_list' for #<Article:0x00007f25754f2710>
+Did you mean?  tag_list=):
+    16: 
+    17:   <p>
+    18:   <%= f.label :tag_list %><br />
+    19:   <%= f.text_field :tag_list%>
+    20:   </p>
+    21: 
+    22:   <p>
+  
+app/views/articles/_form.html.erb:19
+app/views/articles/_form.html.erb:1
+app/views/articles/new.html.erb:3
+Started GET "/articles/new" for 127.0.0.1 at 2020-04-24 19:36:46 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 7.4ms | Allocations: 3819)
+  Rendered articles/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 3881)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.6ms | Allocations: 8390)
+
+
+  
+ActionView::Template::Error (undefined method `tag_list' for #<Article:0x00007f257517bcd0>
+Did you mean?  tag_list=):
+    16: 
+    17:   <p>
+    18:   <%= f.label :tag_list %><br />
+    19:   <%= f.text_field :tag_list%>
+    20:   </p>
+    21: 
+    22:   <p>
+  
+app/views/articles/_form.html.erb:19
+app/views/articles/_form.html.erb:1
+app/views/articles/new.html.erb:3
+Started GET "/articles/new" for 127.0.0.1 at 2020-04-24 19:36:53 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 8.0ms | Allocations: 3858)
+  Rendered articles/new.html.erb within layouts/application (Duration: 8.4ms | Allocations: 3920)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 1.1ms | Allocations: 8429)
+
+
+  
+ActionView::Template::Error (undefined method `tag_list' for #<Article:0x00007f2574024888>
+Did you mean?  tag_list=):
+    16: 
+    17:   <p>
+    18:   <%= f.label :tag_list %><br />
+    19:   <%= f.text_field :tag_list%>
+    20:   </p>
+    21: 
+    22:   <p>
+  
+app/views/articles/_form.html.erb:19
+app/views/articles/_form.html.erb:1
+app/views/articles/new.html.erb:3
+Started GET "/articles/new" for 127.0.0.1 at 2020-04-24 19:37:43 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 6.7ms | Allocations: 3819)
+  Rendered articles/new.html.erb within layouts/application (Duration: 7.3ms | Allocations: 3990)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.6ms | Allocations: 8581)
+
+
+  
+ActionView::Template::Error (undefined method `tag_list' for #<Article:0x00007f257538ed38>
+Did you mean?  tag_list=):
+    16: 
+    17:   <p>
+    18:   <%= f.label :tag_list %><br />
+    19:   <%= f.text_field :tag_list%>
+    20:   </p>
+    21: 
+    22:   <p>
+  
+app/views/articles/_form.html.erb:19
+app/views/articles/_form.html.erb:1
+app/views/articles/new.html.erb:3
+Started GET "/articles/new" for 127.0.0.1 at 2020-04-24 19:37:47 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 7.5ms | Allocations: 3691)
+  Rendered articles/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 3753)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 4214)
+
+
+  
+ActionView::Template::Error (undefined method `tag_list' for #<Article:0x00007f25750f72c8>
+Did you mean?  tag_list=):
+    16: 
+    17:   <p>
+    18:   <%= f.label :tag_list %><br />
+    19:   <%= f.text_field :tag_list%>
+    20:   </p>
+    21: 
+    22:   <p>
+  
+app/views/articles/_form.html.erb:19
+app/views/articles/_form.html.erb:1
+app/views/articles/new.html.erb:3
+Started GET "/" for 127.0.0.1 at 2020-04-24 19:38:36 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 4176)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 13.5ms | ActiveRecord: 0.7ms | Allocations: 9540)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2020-04-24 19:38:38 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 8.9ms | Allocations: 3881)
+  Rendered articles/new.html.erb within layouts/application (Duration: 9.3ms | Allocations: 3941)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 7800)
+
+
+Started POST "/articles" for 127.0.0.1 at 2020-04-24 19:38:41 -0300
+Processing by ArticlesController#create as HTML
+  Parameters: {"authenticity_token"=>"UuW/dTSbie2BRLcPU7+loG5gGfxYTrNe47xHNmNLqKEAvlIUAOMe5Y0SFvfuHUAe/V0vSp8PS+pky0f/64G/vQ==", "article"=>{"title"=>"da", "body"=>"das", "tag_list"=>"dasdasdsa dasdas"}, "commit"=>"Create Article"}
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" WHERE "tags"."name" = ? LIMIT ?[0m  [["name", "dasdasdsa dasdas"], ["LIMIT", 1]]
+  ↳ app/models/article.rb:6:in `block in tag_list='
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/article.rb:6:in `block in tag_list='
+  [1m[36mTag Create (0.6ms)[0m  [1m[32mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "dasdasdsa dasdas"], ["created_at", "2020-04-24 22:38:41.890339"], ["updated_at", "2020-04-24 22:38:41.890339"]]
+  ↳ app/models/article.rb:6:in `block in tag_list='
+  [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/article.rb:6:in `block in tag_list='
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:30:in `create'
+  [1m[36mArticle Create (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "da"], ["body", "das"], ["created_at", "2020-04-24 22:38:41.922126"], ["updated_at", "2020-04-24 22:38:41.922126"]]
+  ↳ app/controllers/articles_controller.rb:30:in `create'
+  [1m[36mTagging Create (0.6ms)[0m  [1m[32mINSERT INTO "taggings" ("tag_id", "article_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["tag_id", 6], ["article_id", 24], ["created_at", "2020-04-24 22:38:41.930032"], ["updated_at", "2020-04-24 22:38:41.930032"]]
+  ↳ app/controllers/articles_controller.rb:30:in `create'
+  [1m[35m (17.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:30:in `create'
+Redirected to http://localhost:3000/articles/24
+Completed 302 Found in 77ms (ActiveRecord: 27.8ms | Allocations: 15505)
+
+
+Started GET "/articles/24" for 127.0.0.1 at 2020-04-24 19:38:41 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"24"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:11:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 13.8ms | Allocations: 2882)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 1.0ms | Allocations: 7432)
+
+
+  
+ActionView::Template::Error (undefined method `comments' for #<Article:0x00007f2575180de8>
+Did you mean?  committed!):
+    1: <h1><%= @article.title %></h1>
+    2: <p><%= @article.body %></p>
+    3: <h3>Comments (<%= @article.comments.size %>)</h3>
+    4: <%= render partial: 'articles/comment', collection: @article.comments %>
+    5: <%= render partial: 'comments/form' %>
+    6: <%= link_to "<< Back to Article List", articles_path %>
+  
+app/views/articles/show.html.erb:3
