@@ -4764,3 +4764,1097 @@ Processing by ArticlesController#show as HTML
 Completed 200 OK in 20ms (Views: 17.3ms | ActiveRecord: 0.7ms | Allocations: 7740)
 
 
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mTagging Load (0.3ms)[0m  [1m[34mSELECT "taggings".* FROM "taggings"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTagging Destroy (1.1ms)[0m  [1m[31mDELETE FROM "taggings" WHERE "taggings"."id" = ?[0m  [["id", 1]]
+  [1m[35m (100.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTagging Destroy (0.3ms)[0m  [1m[31mDELETE FROM "taggings" WHERE "taggings"."id" = ?[0m  [["id", 2]]
+  [1m[35m (122.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTagging Destroy (0.3ms)[0m  [1m[31mDELETE FROM "taggings" WHERE "taggings"."id" = ?[0m  [["id", 3]]
+  [1m[35m (86.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTagging Destroy (0.3ms)[0m  [1m[31mDELETE FROM "taggings" WHERE "taggings"."id" = ?[0m  [["id", 4]]
+  [1m[35m (86.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTagging Destroy (0.3ms)[0m  [1m[31mDELETE FROM "taggings" WHERE "taggings"."id" = ?[0m  [["id", 5]]
+  [1m[35m (87.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTagging Destroy (0.5ms)[0m  [1m[31mDELETE FROM "taggings" WHERE "taggings"."id" = ?[0m  [["id", 6]]
+  [1m[35m (72.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTagging Destroy (0.2ms)[0m  [1m[31mDELETE FROM "taggings" WHERE "taggings"."id" = ?[0m  [["id", 7]]
+  [1m[35m (132.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTagging Destroy (0.5ms)[0m  [1m[31mDELETE FROM "taggings" WHERE "taggings"."id" = ?[0m  [["id", 8]]
+  [1m[35m (108.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTagging Destroy (0.3ms)[0m  [1m[31mDELETE FROM "taggings" WHERE "taggings"."id" = ?[0m  [["id", 9]]
+  [1m[35m (86.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTagging Destroy (0.8ms)[0m  [1m[31mDELETE FROM "taggings" WHERE "taggings"."id" = ?[0m  [["id", 10]]
+  [1m[35m (87.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTagging Destroy (0.5ms)[0m  [1m[31mDELETE FROM "taggings" WHERE "taggings"."id" = ?[0m  [["id", 11]]
+  [1m[35m (281.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTagging Destroy (0.3ms)[0m  [1m[31mDELETE FROM "taggings" WHERE "taggings"."id" = ?[0m  [["id", 12]]
+  [1m[35m (219.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTagging Destroy (0.3ms)[0m  [1m[31mDELETE FROM "taggings" WHERE "taggings"."id" = ?[0m  [["id", 13]]
+  [1m[35m (109.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTagging Destroy (1.1ms)[0m  [1m[31mDELETE FROM "taggings" WHERE "taggings"."id" = ?[0m  [["id", 14]]
+  [1m[35m (140.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTagging Destroy (0.4ms)[0m  [1m[31mDELETE FROM "taggings" WHERE "taggings"."id" = ?[0m  [["id", 15]]
+  [1m[35m (87.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTagging Destroy (0.3ms)[0m  [1m[31mDELETE FROM "taggings" WHERE "taggings"."id" = ?[0m  [["id", 16]]
+  [1m[35m (107.3ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/tags/9" for ::1 at 2020-04-28 11:05:10 -0500
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mTag Load (0.4ms)[0m  [1m[34mSELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:3:in `show'
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles" INNER JOIN "taggings" ON "articles"."id" = "taggings"."article_id" WHERE "taggings"."tag_id" = ?[0m  [["tag_id", 9]]
+  ↳ app/views/tags/show.html.erb:4
+  Rendered tags/show.html.erb within layouts/application (Duration: 45.4ms | Allocations: 8893)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 127ms (Views: 90.7ms | ActiveRecord: 3.6ms | Allocations: 27049)
+
+
+Started GET "/articles/28" for ::1 at 2020-04-28 11:05:12 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:11:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mTag Load (0.3ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 28]]
+  ↳ app/views/articles/show.html.erb:4
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 28]]
+  ↳ app/views/articles/show.html.erb:10
+  Rendered collection of articles/_comment.html.erb [0 times] (Duration: 0.1ms | Allocations: 3)
+  Rendered comments/_form.html.erb (Duration: 4.5ms | Allocations: 1212)
+  Rendered articles/show.html.erb within layouts/application (Duration: 22.8ms | Allocations: 5421)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 74ms (Views: 37.5ms | ActiveRecord: 2.0ms | Allocations: 16012)
+
+
+Started GET "/articles" for ::1 at 2020-04-28 11:05:13 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 12.2ms | Allocations: 1902)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.3ms | Allocations: 6096)
+
+
+Started GET "/articles" for ::1 at 2020-04-28 11:16:44 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 4260)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 22.0ms | ActiveRecord: 0.2ms | Allocations: 10896)
+
+
+Started GET "/articles/new" for ::1 at 2020-04-28 11:16:46 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 21.4ms | Allocations: 5484)
+  Rendered articles/new.html.erb within layouts/application (Duration: 23.2ms | Allocations: 5774)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.0ms | Allocations: 9876)
+
+
+Started POST "/articles" for ::1 at 2020-04-28 11:17:06 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"authenticity_token"=>"CXt2FnQQvR25GZIIPvT6TlrPQ2MjX1aKX7JArL7IDnNx6tjiuMoO0R0wOh504KG8tA25pEs79qJDW4Ex5cKERQ==", "article"=>{"title"=>"article 9", "body"=>"trying tags", "tag_list"=>"tag and tag"}, "commit"=>"Create Article"}
+  [1m[36mTag Load (0.8ms)[0m  [1m[34mSELECT "tags".* FROM "tags" WHERE "tags"."name" = ? LIMIT ?[0m  [["name", "tag and tag"], ["LIMIT", 1]]
+  ↳ app/models/article.rb:6:in `block in tag_list='
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/article.rb:6:in `block in tag_list='
+  [1m[36mTag Create (0.4ms)[0m  [1m[32mINSERT INTO "tags" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "tag and tag"], ["created_at", "2020-04-28 16:17:06.278838"], ["updated_at", "2020-04-28 16:17:06.278838"]]
+  ↳ app/models/article.rb:6:in `block in tag_list='
+  [1m[35m (418.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/article.rb:6:in `block in tag_list='
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:30:in `create'
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "article 9"], ["body", "trying tags"], ["created_at", "2020-04-28 16:17:06.762479"], ["updated_at", "2020-04-28 16:17:06.762479"]]
+  ↳ app/controllers/articles_controller.rb:30:in `create'
+  [1m[36mTagging Create (0.4ms)[0m  [1m[32mINSERT INTO "taggings" ("tag_id", "article_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["tag_id", 12], ["article_id", 30], ["created_at", "2020-04-28 16:17:06.768067"], ["updated_at", "2020-04-28 16:17:06.768067"]]
+  ↳ app/controllers/articles_controller.rb:30:in `create'
+  [1m[35m (251.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:30:in `create'
+Redirected to http://localhost:3000/articles/30
+Completed 302 Found in 776ms (ActiveRecord: 672.0ms | Allocations: 16094)
+
+
+Started GET "/articles/30" for ::1 at 2020-04-28 11:17:07 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:11:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 30]]
+  ↳ app/views/articles/show.html.erb:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 30]]
+  ↳ app/views/articles/show.html.erb:10
+  Rendered collection of articles/_comment.html.erb [0 times] (Duration: 0.0ms | Allocations: 3)
+  Rendered comments/_form.html.erb (Duration: 2.4ms | Allocations: 608)
+  Rendered articles/show.html.erb within layouts/application (Duration: 19.9ms | Allocations: 3889)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 47ms (Views: 29.1ms | ActiveRecord: 0.7ms | Allocations: 11538)
+
+
+Started GET "/tags/12" for ::1 at 2020-04-28 11:17:12 -0500
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:7:in `show'
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" INNER JOIN "taggings" ON "articles"."id" = "taggings"."article_id" WHERE "taggings"."tag_id" = ?[0m  [["tag_id", 12]]
+  ↳ app/views/tags/show.html.erb:4
+  Rendered tags/show.html.erb within layouts/application (Duration: 18.3ms | Allocations: 1886)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 33.5ms | ActiveRecord: 0.5ms | Allocations: 6998)
+
+
+Started GET "/articles" for ::1 at 2020-04-28 11:17:43 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 1757)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.2ms | Allocations: 5798)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 11:17:49 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 283ms (ActiveRecord: 0.0ms | Allocations: 83294)
+
+
+  
+NameError (undefined local variable or method `tags' for #<TagsController:0x0000561979eaa748>):
+  
+app/controllers/tags_controller.rb:3:in `index'
+Started GET "/tags" for ::1 at 2020-04-28 11:18:54 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  Rendered tags/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 999)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 3067)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>All Tags</h1>
+
+<ul>
+  <% @tags do |tag| %>
+    <li>
+    <%= link_to tag.string, tag_path(tag), class: 'tag_title' %>
+    </li>
+  <% end %>
+</ul>
+
+
+
+):
+1:    <h1>All Tags</h1>
+2:    
+3:    <ul>
+4:      <% @tags do |tag| %>
+5:        <li>
+6:        <%= link_to tag.string, tag_path(tag), class: 'tag_title' %>
+7:        </li>
+8:      <% end %>
+9:    </ul>
+  
+app/views/tags/index.html.erb:4: syntax error, unexpected `do', expecting `end'
+app/views/tags/index.html.erb:14: syntax error, unexpected `end', expecting end-of-input
+app/views/tags/index.html.erb:4: syntax error, unexpected `do', expecting `end'
+app/views/tags/index.html.erb:14: syntax error, unexpected `end', expecting end-of-input
+app/views/tags/index.html.erb:4: syntax error, unexpected `do', expecting `end'
+app/views/tags/index.html.erb:14: syntax error, unexpected `end', expecting end-of-input
+app/views/tags/index.html.erb:4: syntax error, unexpected `do', expecting `end'
+app/views/tags/index.html.erb:14: syntax error, unexpected `end', expecting end-of-input
+app/views/tags/index.html.erb:4: syntax error, unexpected `do', expecting `end'
+app/views/tags/index.html.erb:14: syntax error, unexpected `end', expecting end-of-input
+app/views/tags/index.html.erb:4: syntax error, unexpected `do', expecting `end'
+app/views/tags/index.html.erb:14: syntax error, unexpected `end', expecting end-of-input
+Started GET "/tags" for ::1 at 2020-04-28 11:20:02 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.3ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 15.4ms | Allocations: 5877)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 1.4ms | Allocations: 7132)
+
+
+  
+ActionView::Template::Error (undefined method `string' for #<Tag:0x00007f48fcb1f430>):
+    3: <ul>
+    4:   <% @tags.each do |tag| %>
+    5:     <li>
+    6:     <%= link_to tag.string, tag_path(tag), class: 'tag_title' %>
+    7:     </li>
+    8:   <% end %>
+    9: </ul>
+  
+app/views/tags/index.html.erb:6
+app/views/tags/index.html.erb:4
+Started GET "/tags" for ::1 at 2020-04-28 11:21:12 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 10.9ms | Allocations: 3590)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.2ms | Allocations: 4845)
+
+
+  
+ActionView::Template::Error (undefined method `show' for #<Tag:0x000056197b3f6d90>):
+    3: <ul>
+    4:   <% @tags.each do |tag| %>
+    5:     <li>
+    6:     <%= link_to tag.show, tag_path(tag), class: 'tag_title' %>
+    7:     </li>
+    8:   <% end %>
+    9: </ul>
+  
+app/views/tags/index.html.erb:6
+app/views/tags/index.html.erb:4
+Started GET "/tags" for ::1 at 2020-04-28 11:22:36 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 3677)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.2ms | Allocations: 4932)
+
+
+  
+ActionView::Template::Error (undefined method `tag' for #<Tag:0x00007f49200f4f40>
+Did you mean?  tap):
+    3: <ul>
+    4:   <% @tags.each do |tag| %>
+    5:     <li>
+    6:     <%= link_to tag.tag, tag_path(tag), class: 'tag_title' %>
+    7:     </li>
+    8:   <% end %>
+    9: </ul>
+  
+app/views/tags/index.html.erb:6
+app/views/tags/index.html.erb:4
+Started GET "/tags" for ::1 at 2020-04-28 11:27:53 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.3ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 10.7ms | Allocations: 1247)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 31.5ms | ActiveRecord: 0.3ms | Allocations: 6258)
+
+
+Started GET "/tags/1" for ::1 at 2020-04-28 11:28:02 -0500
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (3.8ms)[0m  [1m[34mSELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:7:in `show'
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles" INNER JOIN "taggings" ON "articles"."id" = "taggings"."article_id" WHERE "taggings"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:4
+  Rendered tags/show.html.erb within layouts/application (Duration: 58.6ms | Allocations: 7622)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 81ms (Views: 68.0ms | ActiveRecord: 6.0ms | Allocations: 12322)
+
+
+Started GET "/tags/5" for ::1 at 2020-04-28 11:28:06 -0500
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:7:in `show'
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" INNER JOIN "taggings" ON "articles"."id" = "taggings"."article_id" WHERE "taggings"."tag_id" = ?[0m  [["tag_id", 5]]
+  ↳ app/views/tags/show.html.erb:4
+  Rendered tags/show.html.erb within layouts/application (Duration: 5.3ms | Allocations: 849)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 20.5ms | ActiveRecord: 0.3ms | Allocations: 5373)
+
+
+Started GET "/tags/7" for ::1 at 2020-04-28 11:28:09 -0500
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mTag Load (0.3ms)[0m  [1m[34mSELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:7:in `show'
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" INNER JOIN "taggings" ON "articles"."id" = "taggings"."article_id" WHERE "taggings"."tag_id" = ?[0m  [["tag_id", 7]]
+  ↳ app/views/tags/show.html.erb:4
+  Rendered tags/show.html.erb within layouts/application (Duration: 3.1ms | Allocations: 849)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 44ms (Views: 35.9ms | ActiveRecord: 0.4ms | Allocations: 5375)
+
+
+Started GET "/" for ::1 at 2020-04-28 11:28:25 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 19.1ms | Allocations: 4027)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 30.8ms | ActiveRecord: 1.2ms | Allocations: 8606)
+
+
+Started GET "/articles/new" for ::1 at 2020-04-28 11:28:28 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 14.0ms | Allocations: 2064)
+  Rendered articles/new.html.erb within layouts/application (Duration: 21.9ms | Allocations: 2351)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 46ms (Views: 39.8ms | ActiveRecord: 0.0ms | Allocations: 6449)
+
+
+Started POST "/articles" for ::1 at 2020-04-28 11:28:40 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"authenticity_token"=>"YbXfyi2zJgYeoGnnWkGfjhp0jO4TTLxcd35bUf3xu5IZJHE+4WmVyrqJwfEQVcR89LZ2KXsoHHRrl5rMpvsxpA==", "article"=>{"title"=>"new art for tags", "body"=>"something", "tag_list"=>"tag and tag"}, "commit"=>"Create Article"}
+  [1m[36mTag Load (0.8ms)[0m  [1m[34mSELECT "tags".* FROM "tags" WHERE "tags"."name" = ? LIMIT ?[0m  [["name", "tag and tag"], ["LIMIT", 1]]
+  ↳ app/models/article.rb:6:in `block in tag_list='
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:30:in `create'
+  [1m[36mArticle Create (4.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "new art for tags"], ["body", "something"], ["created_at", "2020-04-28 16:28:40.907724"], ["updated_at", "2020-04-28 16:28:40.907724"]]
+  ↳ app/controllers/articles_controller.rb:30:in `create'
+  [1m[36mTagging Create (0.7ms)[0m  [1m[32mINSERT INTO "taggings" ("tag_id", "article_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["tag_id", 12], ["article_id", 31], ["created_at", "2020-04-28 16:28:40.919580"], ["updated_at", "2020-04-28 16:28:40.919580"]]
+  ↳ app/controllers/articles_controller.rb:30:in `create'
+  [1m[35m (303.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:30:in `create'
+Redirected to http://localhost:3000/articles/31
+Completed 302 Found in 353ms (ActiveRecord: 310.0ms | Allocations: 9097)
+
+
+Started GET "/articles/31" for ::1 at 2020-04-28 11:28:41 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:11:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mTag Load (0.4ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 31]]
+  ↳ app/views/articles/show.html.erb:4
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 31]]
+  ↳ app/views/articles/show.html.erb:10
+  Rendered collection of articles/_comment.html.erb [0 times] (Duration: 0.1ms | Allocations: 3)
+  Rendered comments/_form.html.erb (Duration: 3.4ms | Allocations: 608)
+  Rendered articles/show.html.erb within layouts/application (Duration: 22.6ms | Allocations: 3824)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 77ms (Views: 34.0ms | ActiveRecord: 2.1ms | Allocations: 13292)
+
+
+Started GET "/tags/12" for ::1 at 2020-04-28 11:28:43 -0500
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:7:in `show'
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" INNER JOIN "taggings" ON "articles"."id" = "taggings"."article_id" WHERE "taggings"."tag_id" = ?[0m  [["tag_id", 12]]
+  ↳ app/views/tags/show.html.erb:4
+  Rendered tags/show.html.erb within layouts/application (Duration: 11.8ms | Allocations: 938)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 33.9ms | ActiveRecord: 0.5ms | Allocations: 5462)
+
+
+Started GET "/tags/" for ::1 at 2020-04-28 11:28:49 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.6ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 19.9ms | Allocations: 1090)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 41.3ms | ActiveRecord: 0.6ms | Allocations: 5135)
+
+
+Started GET "/tags/12" for ::1 at 2020-04-28 11:28:52 -0500
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:7:in `show'
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" INNER JOIN "taggings" ON "articles"."id" = "taggings"."article_id" WHERE "taggings"."tag_id" = ?[0m  [["tag_id", 12]]
+  ↳ app/views/tags/show.html.erb:4
+  Rendered tags/show.html.erb within layouts/application (Duration: 6.9ms | Allocations: 933)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 27.9ms | ActiveRecord: 0.4ms | Allocations: 5449)
+
+
+Started GET "/tags/" for ::1 at 2020-04-28 11:30:26 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.3ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 14.8ms | Allocations: 3304)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 44ms (Views: 29.3ms | ActiveRecord: 1.7ms | Allocations: 8686)
+
+
+Started GET "/tags/12" for ::1 at 2020-04-28 11:30:28 -0500
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mTag Load (0.3ms)[0m  [1m[34mSELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:7:in `show'
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 1.7ms | Allocations: 7241)
+
+
+  
+NoMethodError (undefined method `article_id=' for #<Article:0x0000561979f0fa08>):
+  
+app/controllers/tags_controller.rb:9:in `show'
+Started GET "/tags/12" for ::1 at 2020-04-28 11:36:31 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mTag Load (0.9ms)[0m  [1m[34mSELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:7:in `show'
+Completed 500 Internal Server Error in 77ms (ActiveRecord: 0.9ms | Allocations: 10056)
+
+
+  
+NoMethodError (undefined method `article_id=' for #<Article:0x00007f48fc5ac070>):
+  
+app/controllers/tags_controller.rb:9:in `show'
+Started GET "/tags/12" for ::1 at 2020-04-28 11:36:40 -0500
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mTag Load (0.3ms)[0m  [1m[34mSELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:7:in `show'
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.3ms | Allocations: 3128)
+
+
+  
+NoMethodError (undefined method `article_id=' for #<Article:0x0000561979509d38>):
+  
+app/controllers/tags_controller.rb:9:in `show'
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mArticle Load (1.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mArticle Load (1.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mTagging Load (0.3ms)[0m  [1m[34mSELECT "taggings".* FROM "taggings" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mTag Load (0.4ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 1], ["LIMIT", 11]]
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 2], ["LIMIT", 11]]
+  [1m[36mTag Load (0.3ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 3], ["LIMIT", 11]]
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 4], ["LIMIT", 11]]
+  [1m[36mTag Load (0.3ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 5], ["LIMIT", 11]]
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 6], ["LIMIT", 11]]
+  [1m[36mTag Load (0.3ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 8], ["LIMIT", 11]]
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 9], ["LIMIT", 11]]
+  [1m[36mTag Load (0.5ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 11], ["LIMIT", 11]]
+  [1m[36mTag Load (0.3ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 12], ["LIMIT", 11]]
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 15], ["LIMIT", 11]]
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 16], ["LIMIT", 11]]
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 17], ["LIMIT", 11]]
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 18], ["LIMIT", 11]]
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 19], ["LIMIT", 11]]
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 20], ["LIMIT", 11]]
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 21], ["LIMIT", 11]]
+  [1m[36mTag Load (0.4ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 22], ["LIMIT", 11]]
+  [1m[36mTag Load (0.3ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 23], ["LIMIT", 11]]
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 24], ["LIMIT", 11]]
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 25], ["LIMIT", 11]]
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 26], ["LIMIT", 11]]
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 27], ["LIMIT", 11]]
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 28], ["LIMIT", 11]]
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 29], ["LIMIT", 11]]
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 30], ["LIMIT", 11]]
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ? LIMIT ?[0m  [["article_id", 31], ["LIMIT", 11]]
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mTag Load (1.5ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 1]]
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 2]]
+  [1m[36mTag Load (0.5ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 3]]
+  [1m[36mTag Load (0.3ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 4]]
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 5]]
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 6]]
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 8]]
+  [1m[36mTag Load (0.4ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 9]]
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 11]]
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 12]]
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 15]]
+  [1m[36mTag Load (0.5ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 16]]
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 17]]
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 18]]
+  [1m[36mTag Load (0.5ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 19]]
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 20]]
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 21]]
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 22]]
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 23]]
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 24]]
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 25]]
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 26]]
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 27]]
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 28]]
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 29]]
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 30]]
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 31]]
+Started GET "/tags" for ::1 at 2020-04-28 12:49:21 -0500
+  [1m[35m (4.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (4.7ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 497.0ms | Allocations: 128726)
+Completed 500 Internal Server Error in 513ms (ActiveRecord: 6.0ms | Allocations: 132259)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `article' for #<#<Class:0x000055aa738567b8>:0x00007f3a9cb2ef48>
+Did you mean?  article_url):
+    3: <ul>
+    4:   <% @tags.each do |tag| %>
+    5:     <li>
+    6:     <%= link_to article.name, tag_path(tag), class: 'tag_title' %>
+    7:     </li>
+    8:   <% end %>
+    9: </ul>
+  
+app/views/tags/index.html.erb:6
+app/views/tags/index.html.erb:4
+Started GET "/tags" for ::1 at 2020-04-28 12:49:49 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  Rendered tags/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1045)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 2335)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>All Tags</h1>
+
+<ul>
+  <% @tags.each do |tag| %>
+    <h2>
+    <%= tag.name,) class: 'tag_title' %>
+    </h2>
+  <% end %>
+</ul>
+
+
+
+):
+1:    <h1>All Tags</h1>
+2:    
+3:    <ul>
+4:      <% @tags.each do |tag| %>
+5:        <h2>
+6:        <%= tag.name,) class: 'tag_title' %>
+7:        </h2>
+8:      <% end %>
+9:    </ul>
+  
+app/views/tags/index.html.erb:6: syntax error, unexpected ')', expecting '='
+app/views/tags/index.html.erb:6: syntax error, unexpected ')', expecting '='
+app/views/tags/index.html.erb:6: syntax error, unexpected ')', expecting '='
+app/views/tags/index.html.erb:6: syntax error, unexpected ')', expecting '='
+app/views/tags/index.html.erb:6: syntax error, unexpected ')', expecting '='
+app/views/tags/index.html.erb:6: syntax error, unexpected ')', expecting '='
+Started GET "/tags" for ::1 at 2020-04-28 12:49:50 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  Rendered tags/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1033)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1544)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>All Tags</h1>
+
+<ul>
+  <% @tags.each do |tag| %>
+    <h2>
+    <%= tag.name,) class: 'tag_title' %>
+    </h2>
+  <% end %>
+</ul>
+
+
+
+):
+1:    <h1>All Tags</h1>
+2:    
+3:    <ul>
+4:      <% @tags.each do |tag| %>
+5:        <h2>
+6:        <%= tag.name,) class: 'tag_title' %>
+7:        </h2>
+8:      <% end %>
+9:    </ul>
+  
+app/views/tags/index.html.erb:6: syntax error, unexpected ')', expecting '='
+app/views/tags/index.html.erb:6: syntax error, unexpected ')', expecting '='
+app/views/tags/index.html.erb:6: syntax error, unexpected ')', expecting '='
+app/views/tags/index.html.erb:6: syntax error, unexpected ')', expecting '='
+app/views/tags/index.html.erb:6: syntax error, unexpected ')', expecting '='
+app/views/tags/index.html.erb:6: syntax error, unexpected ')', expecting '='
+Started GET "/tags" for ::1 at 2020-04-28 12:50:05 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  Rendered tags/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1042)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2302)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>All Tags</h1>
+
+<ul>
+  <% @tags.each do |tag| %>
+    <h2>
+    <%= tag.name, class: 'tag_title' %>
+    </h2>
+  <% end %>
+</ul>
+
+
+
+):
+1:    <h1>All Tags</h1>
+2:    
+3:    <ul>
+4:      <% @tags.each do |tag| %>
+5:        <h2>
+6:        <%= tag.name, class: 'tag_title' %>
+7:        </h2>
+8:      <% end %>
+9:    </ul>
+  
+app/views/tags/index.html.erb:6: syntax error, unexpected tLABEL, expecting '='
+app/views/tags/index.html.erb:6: syntax error, unexpected tLABEL, expecting '='
+app/views/tags/index.html.erb:6: syntax error, unexpected tLABEL, expecting '='
+app/views/tags/index.html.erb:6: syntax error, unexpected tLABEL, expecting '='
+app/views/tags/index.html.erb:6: syntax error, unexpected tLABEL, expecting '='
+app/views/tags/index.html.erb:6: syntax error, unexpected tLABEL, expecting '='
+Started GET "/tags" for ::1 at 2020-04-28 12:51:19 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.3ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 887)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 36.8ms | ActiveRecord: 0.3ms | Allocations: 8658)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:52:23 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.3ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 15.5ms | Allocations: 2074)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 36.7ms | ActiveRecord: 0.3ms | Allocations: 7066)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:52:25 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1477)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.2ms | Allocations: 5510)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:52:26 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 11.4ms | Allocations: 1470)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.2ms | Allocations: 5516)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:52:26 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.3ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 1462)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 37.4ms | ActiveRecord: 0.3ms | Allocations: 5504)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:52:27 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 11.9ms | Allocations: 1461)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 25.1ms | ActiveRecord: 0.2ms | Allocations: 5494)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:52:27 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 16.1ms | Allocations: 1461)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 35.1ms | ActiveRecord: 0.2ms | Allocations: 5493)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:52:27 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 16.8ms | Allocations: 1461)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 60ms (Views: 57.3ms | ActiveRecord: 0.2ms | Allocations: 5506)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:52:28 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 7.7ms | Allocations: 1462)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 50ms (Views: 48.2ms | ActiveRecord: 0.2ms | Allocations: 5509)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:52:28 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1461)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.2ms | Allocations: 5512)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:52:28 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 12.4ms | Allocations: 1461)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.2ms | Allocations: 5499)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:52:29 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 10.6ms | Allocations: 1461)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.2ms | Allocations: 5492)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:52:30 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 1461)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.2ms | Allocations: 5498)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:52:31 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.5ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 1461)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 35.8ms | ActiveRecord: 0.5ms | Allocations: 5498)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:52:31 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.7ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 9.6ms | Allocations: 1461)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.7ms | Allocations: 5498)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:52:31 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1461)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 17.5ms | ActiveRecord: 0.2ms | Allocations: 5501)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:52:32 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.4ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 20.3ms | Allocations: 1461)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 35.5ms | ActiveRecord: 0.4ms | Allocations: 5498)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:52:32 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.6ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1461)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 30.2ms | ActiveRecord: 0.6ms | Allocations: 5513)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:52:32 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1461)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 25.1ms | ActiveRecord: 0.2ms | Allocations: 5520)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:52:33 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.5ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 14.1ms | Allocations: 1461)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 39.5ms | ActiveRecord: 0.5ms | Allocations: 5506)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:52:33 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 12.0ms | Allocations: 1461)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.2ms | Allocations: 5502)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:52:33 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1461)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 25.2ms | ActiveRecord: 0.2ms | Allocations: 5498)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:52:33 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (1.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 27.3ms | Allocations: 1461)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 50ms (Views: 44.2ms | ActiveRecord: 1.1ms | Allocations: 5504)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:52:33 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1461)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.2ms | Allocations: 5504)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:53:10 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.3ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 1245)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 30.2ms | ActiveRecord: 0.3ms | Allocations: 6214)
+
+
+Started GET "/tags/1" for ::1 at 2020-04-28 12:53:14 -0500
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:7:in `show'
+Completed 500 Internal Server Error in 61ms (ActiveRecord: 1.2ms | Allocations: 9482)
+
+
+  
+NoMethodError (undefined method `article_id=' for #<Article:0x00007f3a9cd28ec0>):
+  
+app/controllers/tags_controller.rb:9:in `show'
+Started GET "/tags" for ::1 at 2020-04-28 12:53:20 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 1093)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 0.2ms | Allocations: 5164)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:53:43 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.7ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 1142)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 30.1ms | ActiveRecord: 0.7ms | Allocations: 6110)
+
+
+Started GET "/tags" for ::1 at 2020-04-28 12:53:46 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.5ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 998)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 28.9ms | ActiveRecord: 0.5ms | Allocations: 5040)
+
+
+Started GET "/tags/1" for ::1 at 2020-04-28 12:53:48 -0500
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.3ms)[0m  [1m[34mSELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:7:in `show'
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.3ms | Allocations: 3136)
+
+
+  
+NoMethodError (undefined method `article_id=' for #<Article:0x00007f3a9c441e38>):
+  
+app/controllers/tags_controller.rb:9:in `show'
+Started GET "/tags/1" for ::1 at 2020-04-28 12:54:35 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:7:in `show'
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" INNER JOIN "taggings" ON "articles"."id" = "taggings"."article_id" WHERE "taggings"."tag_id" = ?[0m  [["tag_id", 1]]
+  ↳ app/views/tags/show.html.erb:4
+  Rendered tags/show.html.erb within layouts/application (Duration: 47.2ms | Allocations: 8638)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 105ms (Views: 62.9ms | ActiveRecord: 6.2ms | Allocations: 16907)
+
+
+Started GET "/tags/" for ::1 at 2020-04-28 12:54:53 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.6ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 1014)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 40.6ms | ActiveRecord: 0.6ms | Allocations: 5064)
+
+
+Started GET "/tags/3" for ::1 at 2020-04-28 12:54:57 -0500
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:7:in `show'
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" INNER JOIN "taggings" ON "articles"."id" = "taggings"."article_id" WHERE "taggings"."tag_id" = ?[0m  [["tag_id", 3]]
+  ↳ app/views/tags/show.html.erb:4
+  Rendered tags/show.html.erb within layouts/application (Duration: 13.9ms | Allocations: 849)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 71ms (Views: 67.6ms | ActiveRecord: 0.4ms | Allocations: 5368)
+
+
+Started GET "/tags/" for ::1 at 2020-04-28 12:55:00 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.7ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 18.3ms | Allocations: 993)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 64ms (Views: 61.9ms | ActiveRecord: 0.7ms | Allocations: 5026)
+
+
+Started GET "/tags/12" for ::1 at 2020-04-28 12:55:03 -0500
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:7:in `show'
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles" INNER JOIN "taggings" ON "articles"."id" = "taggings"."article_id" WHERE "taggings"."tag_id" = ?[0m  [["tag_id", 12]]
+  ↳ app/views/tags/show.html.erb:4
+  Rendered tags/show.html.erb within layouts/application (Duration: 29.1ms | Allocations: 3025)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 66ms (Views: 56.2ms | ActiveRecord: 1.2ms | Allocations: 7545)
+
+
+Started GET "/tags/" for ::1 at 2020-04-28 12:55:06 -0500
+Processing by TagsController#index as HTML
+  Rendering tags/index.html.erb within layouts/application
+  [1m[36mTag Load (0.3ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  ↳ app/views/tags/index.html.erb:4
+  Rendered tags/index.html.erb within layouts/application (Duration: 17.2ms | Allocations: 993)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 67ms (Views: 62.3ms | ActiveRecord: 0.3ms | Allocations: 5038)
+
+
+Started GET "/tags/12" for ::1 at 2020-04-28 12:56:32 -0500
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mTag Load (1.4ms)[0m  [1m[34mSELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/tags_controller.rb:7:in `show'
+  Rendering tags/show.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" INNER JOIN "taggings" ON "articles"."id" = "taggings"."article_id" WHERE "taggings"."tag_id" = ?[0m  [["tag_id", 12]]
+  ↳ app/views/tags/show.html.erb:4
+  Rendered tags/show.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1094)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 44ms (Views: 34.1ms | ActiveRecord: 1.6ms | Allocations: 6549)
+
+
+Started GET "/articles/30" for ::1 at 2020-04-28 12:56:49 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:11:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mTag Load (0.3ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."article_id" = ?[0m  [["article_id", 30]]
+  ↳ app/views/articles/show.html.erb:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 30]]
+  ↳ app/views/articles/show.html.erb:10
+  Rendered collection of articles/_comment.html.erb [0 times] (Duration: 0.0ms | Allocations: 3)
+  Rendered comments/_form.html.erb (Duration: 11.1ms | Allocations: 1193)
+  Rendered articles/show.html.erb within layouts/application (Duration: 32.5ms | Allocations: 5402)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 86ms (Views: 53.2ms | ActiveRecord: 2.8ms | Allocations: 13862)
+
+
