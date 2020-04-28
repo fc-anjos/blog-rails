@@ -9,7 +9,7 @@ class Article < ApplicationRecord
 
   def tag_list
     tags.collect(&:name).join(', ')
-  end
+end
 
   has_many :comments
   has_many :taggings
