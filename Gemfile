@@ -32,7 +32,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
-  gem 'sqlite3'
+  gem 'sqlite3', '~> 1.4'
 end
 
 # Manage authentications
@@ -62,5 +62,5 @@ end
 # gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 group :production do
-  gem 'pg'
+  gem 'pg', '1.2.3'
 end
