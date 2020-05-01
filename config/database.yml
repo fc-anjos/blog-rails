@@ -11,7 +11,8 @@ default: &default
 
 development:
   <<: *default
-  database: myapp_development
+  adapter: sqlite3
+  database: db/database
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -21,7 +22,6 @@ test:
   database: db/test.sqlite3
 
 production:
-    adapter: postgresql
-    database: my_database_production
-    pool: 5
-    timeout: 5000
+  <<: *default
+  adapter: prostgresql
+  database: db/database

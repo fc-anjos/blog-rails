@@ -65,9 +65,12 @@ class AuthorsController < ApplicationController
 
 
   def zero_authors_or_authenticated
-    unless Author.count == 0 || current_user
+
+    if Author.count > 0
       redirect_to root_path
       return false
+    elsif current_user
+      redirect_to root_path
     end
   end
 
